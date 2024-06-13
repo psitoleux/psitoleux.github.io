@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Paul Sitoleux"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Paul Sitoleux"
 description              : &description "personal description"
 url                      : https://psitoleux.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -44,7 +44,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "psitoleux"
-  kaggle           : "psitoleux" # Username  
+  kaggle           : "paulsitoleux" # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -252,24 +252,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
 
 # Sass/SCSS
 sass:
